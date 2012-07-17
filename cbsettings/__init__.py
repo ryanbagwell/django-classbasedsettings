@@ -3,10 +3,10 @@ from django.utils.importlib import import_module
 import imp
 import os
 import sys
-from .exceptions import InvalidSettingsFactory, SettingsFactoryDoesNotExist
-from .settings import DjangoDefaults
-from .switching import switcher
-from .version import *
+from cbsettings.exceptions import InvalidSettingsFactory, SettingsFactoryDoesNotExist
+from cbsettings.settings import DjangoDefaults
+from cbsettings.switching import switcher
+from cbsettings.version import *
 
 
 ENVIRONMENT_VARIABLE = 'DJANGO_SETTINGS_FACTORY'

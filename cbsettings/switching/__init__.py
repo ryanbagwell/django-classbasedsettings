@@ -1,6 +1,6 @@
 import re
-from ..exceptions import InvalidCondition, NoMatchingSettings
-from . import checks
+from cbsettings.exceptions import InvalidCondition, NoMatchingSettings
+from cbsettings.switching import checks
 
 
 class NoSwitcher:
